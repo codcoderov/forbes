@@ -1,0 +1,31 @@
+#mobile-menu {
+    background-color: transparent;
+    display: none;
+
+    ul#mobile-nav {
+        background-color: transparent;
+        text-transform: uppercase;
+        font-weight: 700;
+        width: 150px;
+        padding: 2px 0 3px 20px;
+
+        li.menu-item {
+            padding: 7px 0;
+
+            a {
+                padding: 0;
+                transition: all 0.5s ease;
+            }
+        }
+
+        li.menu-item:nth-of-type(3){
+            padding-bottom: 18px;
+        }
+
+        li.menu-item:nth-of-type(4){
+            padding-top: 18px;
+            border-top: 1px dashed $anchor-color;
+        }
+    }
+}
+
